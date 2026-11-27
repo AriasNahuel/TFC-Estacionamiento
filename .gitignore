@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+.vercel/
+.DS_Store
+/firmware/esp8266/Config.h
+/firmware/esp8266/TrustAnchor.h
+
+/firmware/esp8266/Config.local.h
+
+# Respaldos y archivos temporales
+/backups/
+/supabase/.temp/
+/supabase/.branches/
+
+# Configuración privada del firmware de diagnóstico
+/firmware/esp8266_wifi_diagnostic/Config.h
+
+# Versiones anteriores del firmware
+/firmware/esp8266/esp8266.ino.prev_*
